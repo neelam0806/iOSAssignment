@@ -18,7 +18,6 @@
 		4C35700223E5A792002D1F33 /* iOSAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C35700123E5A792002D1F33 /* iOSAssignmentUITests.swift */; };
 		4C35701023E5A9C2002D1F33 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C35700F23E5A9C2002D1F33 /* NetworkingManager.swift */; };
 		4C35701223E5AA24002D1F33 /* JSONData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C35701123E5AA24002D1F33 /* JSONData.swift */; };
-		4C44A82C23E6BAEC00203A8C /* JSONDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C44A82B23E6BAEC00203A8C /* JSONDataTests.swift */; };
 		BB1BF4ADD9C78926EA50BBC4 /* Pods_iOSAssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8A13F5BCFBB3F118186BA1 /* Pods_iOSAssignmentTests.framework */; };
 		C5B5819B398B01000AE74A84 /* Pods_iOSAssignment_iOSAssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 974F377E373627A7915082EC /* Pods_iOSAssignment_iOSAssignmentUITests.framework */; };
 /* End PBXBuildFile section */
@@ -58,7 +57,6 @@
 		4C35700323E5A792002D1F33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C35700F23E5A9C2002D1F33 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		4C35701123E5AA24002D1F33 /* JSONData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONData.swift; sourceTree = "<group>"; };
-		4C44A82B23E6BAEC00203A8C /* JSONDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDataTests.swift; sourceTree = "<group>"; };
 		609DE382B2DC18E9CF7EFC79 /* Pods-iOSAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSAssignment.release.xcconfig"; path = "Target Support Files/Pods-iOSAssignment/Pods-iOSAssignment.release.xcconfig"; sourceTree = "<group>"; };
 		974F377E373627A7915082EC /* Pods_iOSAssignment_iOSAssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSAssignment_iOSAssignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5421BA32D65BCC09CF4D582 /* Pods_iOSAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,7 +146,6 @@
 			children = (
 				4C356FF623E5A792002D1F33 /* iOSAssignmentTests.swift */,
 				4C356FF823E5A792002D1F33 /* Info.plist */,
-				4C44A82B23E6BAEC00203A8C /* JSONDataTests.swift */,
 			);
 			path = iOSAssignmentTests;
 			sourceTree = "<group>";
@@ -436,7 +433,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C44A82C23E6BAEC00203A8C /* JSONDataTests.swift in Sources */,
 				4C356FF723E5A792002D1F33 /* iOSAssignmentTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
